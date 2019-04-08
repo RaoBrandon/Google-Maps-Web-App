@@ -1,0 +1,16 @@
+#map{
+  height: 790px;
+  width: 100%;
+}
+
+body{
+  background : #5F12AB;
+  text-align: center;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 20pt;
+}
+
+h1{
+  font-family:"Brush Script MT";
+}

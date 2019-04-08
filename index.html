@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Maps Project</title>
+  <meta charset = "UTF-8">
+  <link rel = "stylesheet" href = "main.css" type = "text/css">
+</head>
+<body>
+  <h1>Maps Project</h1>
+  <div id = "map"></div>
+  <form>
+		<input type = "text" id = "latitude_input" placeholder = "latitude">
+    <input type = "text" id = "longitude_input" placeholder = "longitude">
+    <button type = "button" onclick = "addMarker()">Where is this?</button>
+  </form>
+  <script src = "main.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9M0j2LfLVD-vvBV8v06xu4mdlBqMzPiA&callback=initMap"
+    async defer></script>
+</body>
+</html>
